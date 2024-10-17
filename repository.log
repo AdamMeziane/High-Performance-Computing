@@ -1,0 +1,178 @@
+commit bacc6902f25b7364483cd740fd931fda345557ae
+Author: Adam Meziane <adam.meziane21@imperial.ac.uk>
+Date:   Fri Mar 22 22:44:43 2024 +0000
+
+    final commit
+
+M	CavityProject/lid-driven-cavity/SolverCG.cpp
+M	CavityProject/lid-driven-cavity/SolverCG.h
+M	CavityProject/lid-driven-cavity/UnitTest.cpp
+
+commit 877cfc21b4b536b296cec9869f391cee3714a385
+Author: Adam Meziane <adam.meziane21@imperial.ac.uk>
+Date:   Fri Mar 22 21:48:26 2024 +0000
+
+    Commented code
+
+M	CavityProject/lid-driven-cavity/LidDrivenCavity.cpp
+M	CavityProject/lid-driven-cavity/SolverCG.cpp
+
+commit 3f9ce4423d0d6851550632bc74e3e6ea1efbdb65
+Author: Adam Meziane <adam.meziane21@imperial.ac.uk>
+Date:   Fri Mar 22 20:48:57 2024 +0000
+
+    Working
+
+M	CavityProject/lid-driven-cavity/LidDrivenCavity.cpp
+M	CavityProject/lid-driven-cavity/LidDrivenCavity.h
+A	CavityProject/lid-driven-cavity/RealFinal.txt
+A	CavityProject/lid-driven-cavity/RealInitial.txt
+M	CavityProject/lid-driven-cavity/SolverCG.cpp
+M	CavityProject/lid-driven-cavity/SolverCG.h
+A	CavityProject/lid-driven-cavity/SolverCGUnitTest.txt
+M	CavityProject/lid-driven-cavity/UnitTest.cpp
+M	CavityProject/lid-driven-cavity/makefile
+
+commit fc9a251fd381a3d60e745c458cea0b3855335e60
+Author: Adam Meziane <adam.meziane21@imperial.ac.uk>
+Date:   Fri Mar 22 16:54:00 2024 +0000
+
+    Optimised code
+
+M	CavityProject/lid-driven-cavity/LidDrivenCavity.cpp
+M	CavityProject/lid-driven-cavity/SolverCG.cpp
+M	CavityProject/lid-driven-cavity/UnitTest.cpp
+M	CavityProject/lid-driven-cavity/makefile
+
+commit efd3d99ff156acc5297d1e7971509bd9d0dda489
+Author: Adam Meziane <adam.meziane21@imperial.ac.uk>
+Date:   Thu Mar 21 19:01:29 2024 +0000
+
+    Taking data
+
+M	CavityProject/lid-driven-cavity/LidDrivenCavity.cpp
+M	CavityProject/lid-driven-cavity/LidDrivenCavity.h
+M	CavityProject/lid-driven-cavity/LidDrivenCavitySolver.cpp
+M	CavityProject/lid-driven-cavity/SolverCG.cpp
+M	CavityProject/lid-driven-cavity/SolverCG.h
+
+commit 798987368e180f952eef6803e822cdd837a2cbc2
+Author: Adam Meziane <adam.meziane21@imperial.ac.uk>
+Date:   Thu Mar 21 13:04:34 2024 +0000
+
+    Runs in parallel
+
+M	CavityProject/lid-driven-cavity/LidDrivenCavity.cpp
+M	CavityProject/lid-driven-cavity/LidDrivenCavitySolver.cpp
+M	CavityProject/lid-driven-cavity/SolverCG.cpp
+M	CavityProject/lid-driven-cavity/SolverCG.h
+M	CavityProject/lid-driven-cavity/makefile
+
+commit 27aa7ac8b3c980ad6c765ef324dc4140e56de698
+Author: Adam Meziane <adam.meziane21@imperial.ac.uk>
+Date:   Wed Mar 20 21:49:01 2024 +0000
+
+    LidDrivenCavity.cpp discretised, now for SolverCG.cpp
+
+M	CavityProject/lid-driven-cavity/LidDrivenCavity.cpp
+M	CavityProject/lid-driven-cavity/LidDrivenCavity.h
+M	CavityProject/lid-driven-cavity/LidDrivenCavitySolver.cpp
+M	CavityProject/lid-driven-cavity/SolverCG.cpp
+M	CavityProject/lid-driven-cavity/makefile
+
+commit e4b4acbb96be390cf680de940bb782791cc5a026
+Author: Adam Meziane <adam.meziane21@imperial.ac.uk>
+Date:   Tue Mar 19 15:18:03 2024 +0000
+
+    Runs MPI no error but some more checking has to occur
+
+M	CavityProject/lid-driven-cavity/LidDrivenCavity.cpp
+M	CavityProject/lid-driven-cavity/LidDrivenCavity.h
+M	CavityProject/lid-driven-cavity/LidDrivenCavitySolver.cpp
+M	CavityProject/lid-driven-cavity/SolverCG.cpp
+A	CavityProject/lid-driven-cavity/SolverCG.h
+M	CavityProject/lid-driven-cavity/makefile
+
+commit 8ca925ecbe16d2773cb5906e0e8ae3acdfbeb8ba
+Author: Adam Meziane <adam.meziane21@imperial.ac.uk>
+Date:   Mon Mar 18 16:24:16 2024 +0000
+
+    Some basic MPI functionality added, not run
+
+M	CavityProject/lid-driven-cavity/LidDrivenCavity.h
+M	CavityProject/lid-driven-cavity/makefile
+
+commit 79b282b04832a908ad6ca51c1e7079d534d56d44
+Author: Adam Meziane <adam.meziane21@imperial.ac.uk>
+Date:   Mon Mar 18 15:40:59 2024 +0000
+
+    Added some MPI terms, going to other branch to get the makefile
+
+M	CavityProject/lid-driven-cavity/LidDrivenCavity.cpp
+A	CavityProject/lid-driven-cavity/LidDrivenCavitySolver.cpp
+
+commit 4af9d630599e78eeab4766a88347673944d40bc0
+Author: Adam Meziane <adam.meziane21@imperial.ac.uk>
+Date:   Sat Mar 16 15:33:50 2024 +0000
+
+    Documentation added
+
+M	CavityProject/lid-driven-cavity/LidDrivenCavity.cpp
+A	CavityProject/lid-driven-cavity/SolverCG.cpp
+M	CavityProject/lid-driven-cavity/makefile
+
+commit 3b37335e5d5044ad3dfcb3c43fb8390be2c629db
+Author: Adam Meziane <adam.meziane21@imperial.ac.uk>
+Date:   Sat Mar 16 11:49:50 2024 +0000
+
+    Unit Test for integrate added which checks the input and output text files, This also changes the make file
+
+A	CavityProject/lid-driven-cavity/FinalUnitTest.txt
+A	CavityProject/lid-driven-cavity/InitialUnitTest.txt
+A	CavityProject/lid-driven-cavity/UnitTest.cpp
+D	CavityProject/lid-driven-cavity/UnitTestSolve.cpp
+M	CavityProject/lid-driven-cavity/makefile
+
+commit 30783cfe6ee5fb73cdea15812004f7a712ce468c
+Author: Adam Meziane <adam.meziane21@imperial.ac.uk>
+Date:   Fri Mar 15 17:54:14 2024 +0000
+
+    make file includes a unit test and the unit test for the solver function has been implemented
+
+M	CavityProject/lid-driven-cavity/RunOnceTest.cpp
+A	CavityProject/lid-driven-cavity/UnitTestSolve.cpp
+M	CavityProject/lid-driven-cavity/makefile
+
+commit ae95a217c9089a46378c8a8f368f3c4ba24d6bea
+Author: Adam Meziane <adam.meziane21@imperial.ac.uk>
+Date:   Thu Mar 14 20:54:42 2024 +0000
+
+    Second correction of Cantwell code added and test code ran again to implement this fix which prevents v being over written
+
+A	CavityProject/lid-driven-cavity/LidDrivenCavity.cpp
+A	CavityProject/lid-driven-cavity/LidDrivenCavity.h
+
+commit 77e976f05b79625d525b65dca43687cf4597e410
+Author: Adam Meziane <adam.meziane21@imperial.ac.uk>
+Date:   Mon Mar 11 12:44:41 2024 +0000
+
+    Generated a test txt  with sinusoidal test case solution
+
+A	CavityProject/lid-driven-cavity/RunOnceTest.cpp
+A	CavityProject/lid-driven-cavity/SolveTestData.txt
+
+commit f1a809b573771702f7a74f0ab740c8dda7ff7fad
+Author: Adam Meziane <adam.meziane21@imperial.ac.uk>
+Date:   Sat Mar 9 19:48:55 2024 +0000
+
+    Make file was created
+
+A	CavityProject/lid-driven-cavity/makefile
+
+commit a08061c14801075f61d93eed0100a13b3daa337c
+Author: Adam Meziane <adam.meziane21@imperial.ac.uk>
+Date:   Mon Feb 12 11:13:20 2024 +0000
+
+    Initial Commit
+
+A	GitExercise/main.cpp
